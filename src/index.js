@@ -15,5 +15,5 @@ app.use(express.json());
 app.use(require('./routes/employees'));
 //iniciar server
 app.listen(port,()=>{
-    console.log('server on port',app.get('port'));
+    console.log(`server on port',${port}`);
 });
