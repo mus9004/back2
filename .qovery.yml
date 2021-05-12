@@ -1,0 +1,11 @@
+---
+application:
+  name: "back2"
+  project: "camacho"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-back2"
+  routes:
+  - application_name: "back2"
+    paths:
+    - "/*"
