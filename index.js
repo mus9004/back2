@@ -14,6 +14,4 @@ app.use(express.json());
 //Routes
 app.use(require('./routes/employees'));
 //iniciar server
-app.listen(port,()=>{
-    console.log(`server on port',${port}`);
-});
+app.listen(port,()=>{ console.log(`server on port',${port}`)});
